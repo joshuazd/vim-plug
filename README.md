@@ -1,9 +1,9 @@
-<img src="https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.png" height="75" alt="vim-plug">[![travis-ci](https://travis-ci.org/junegunn/vim-plug.svg?branch=master)](https://travis-ci.org/junegunn/vim-plug)
+<img src="https://raw.githubusercontent.com/joshuazd/vim-plug/master/plug.png" height="75" alt="vim-plug">[![travis-ci](https://travis-ci.org/junegunn/vim-plug.svg?branch=master)](https://travis-ci.org/junegunn/vim-plug)
 ===
 
 A minimalist Vim plugin manager.
 
-<img src="https://raw.githubusercontent.com/junegunn/i/master/vim-plug/installer.gif" height="450">
+<img src="https://raw.githubusercontent.com/joshuazd/i/master/vim-plug/installer.gif" height="450">
 
 ### Pros.
 
@@ -18,13 +18,13 @@ A minimalist Vim plugin manager.
 - Post-update hooks
 - Support for externally managed plugins
 
-[40/4]: https://raw.githubusercontent.com/junegunn/i/master/vim-plug/40-in-4.gif
+[40/4]: https://raw.githubusercontent.com/joshuazd/i/master/vim-plug/40-in-4.gif
 [nv]: http://neovim.org/
 [startup-time]: https://github.com/junegunn/vim-startuptime-benchmark#result
 
 ### Installation
 
-[Download plug.vim](https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim)
+[Download plug.vim](https://raw.githubusercontent.com/joshuazd/vim-plug/master/plug.vim)
 and put it in the "autoload" directory.
 
 #### Vim
@@ -33,19 +33,19 @@ and put it in the "autoload" directory.
 
 ```sh
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+    https://raw.githubusercontent.com/joshuazd/vim-plug/master/plug.vim
 ```
 
 You can automate the process by putting the command in your Vim configuration
 file as suggested [here][auto].
 
-[auto]: https://github.com/junegunn/vim-plug/wiki/tips#automatic-installation
+[auto]: https://github.com/joshuazd/vim-plug/wiki/tips#automatic-installation
 
 ###### Windows (PowerShell)
 
 ```powershell
 md ~\vimfiles\autoload
-$uri = 'https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+$uri = 'https://raw.githubusercontent.com/joshuazd/vim-plug/master/plug.vim'
 (New-Object Net.WebClient).DownloadFile(
   $uri,
   $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath(
@@ -60,14 +60,14 @@ $uri = 'https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 
 ```sh
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
-    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+    https://raw.githubusercontent.com/joshuazd/vim-plug/master/plug.vim
 ```
 
 ###### Windows (PowerShell)
 
 ```powershell
 md ~\AppData\Local\nvim\autoload
-$uri = 'https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+$uri = 'https://raw.githubusercontent.com/joshuazd/vim-plug/master/plug.vim'
 (New-Object Net.WebClient).DownloadFile(
   $uri,
   $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath(
@@ -81,12 +81,12 @@ $uri = 'https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 - See [tutorial] page to learn the basics of vim-plug
 - See [tips] and [FAQ] pages for common problems and questions
 - See [requirements] page for debugging information & tested configurations
-- Create an [issue](https://github.com/junegunn/vim-plug/issues/new)
+- Create an [issue](https://github.com/joshuazd/vim-plug/issues/new)
 
-[tutorial]: https://github.com/junegunn/vim-plug/wiki/tutorial
-[tips]: https://github.com/junegunn/vim-plug/wiki/tips
-[FAQ]: https://github.com/junegunn/vim-plug/wiki/faq
-[requirements]: https://github.com/junegunn/vim-plug/wiki/requirements
+[tutorial]: https://github.com/joshuazd/vim-plug/wiki/tutorial
+[tips]: https://github.com/joshuazd/vim-plug/wiki/tips
+[FAQ]: https://github.com/joshuazd/vim-plug/wiki/faq
+[requirements]: https://github.com/joshuazd/vim-plug/wiki/requirements
 
 ### Usage
 
